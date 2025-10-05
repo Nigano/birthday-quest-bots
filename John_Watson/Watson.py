@@ -8,7 +8,7 @@ dp = Dispatcher()
 router = Router()
 
 # ЧАСТЬ 1: Начало приключений
-#-4812049115 -4812049115
+
 @dp.message(F.text.contains("Привет") | F.text.contains("привет"))
 async def part1(message: types.Message):
 
